@@ -153,6 +153,10 @@ img {
     padding: 11px;
 }
 
+#stack-tecnologico .tecnologia img {
+    height: 60px;
+}
+
 .proyecto img {
     height: 212px;
 }
