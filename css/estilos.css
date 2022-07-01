@@ -193,6 +193,10 @@ img {
     color: white;
 }
 
+.color-gradiente {
+    background-color: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+}
+
 @media (max-width:750px) {
     #contacto {
         background-image: url("../images/fondo-proyecto.png");
