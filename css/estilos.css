@@ -140,6 +140,56 @@ img {
     font-weight: 600;
 }
 
+.color-gradiente {
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+}
+
+#stack-tecnologico .tecnologia img {
+    height: 60px;
+}
+
+#stack-tecnologico h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.tecnologia {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.tecnologia h3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #282828;
+}
+
+#experiencia h2 {
+    color: #370A6D;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.gris {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.gris:hover {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
 .proyecto {
     background-color: white;
     border: none;
@@ -151,10 +201,6 @@ img {
     color: white;
     background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
     padding: 11px;
-}
-
-#stack-tecnologico .tecnologia img {
-    height: 60px;
 }
 
 .proyecto img {
@@ -193,9 +239,7 @@ img {
     color: white;
 }
 
-.color-gradiente {
-    background-color: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
-}
+
 
 @media (max-width:750px) {
     #contacto {
