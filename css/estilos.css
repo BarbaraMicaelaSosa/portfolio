@@ -212,12 +212,28 @@ img {
 
 #otros i {
     color: white;
-    font-size: 82px;
+    font-size: 80px;
 }
 
 #otros .blanco {
     background-color: white;
     border-radius: 15px;
+}
+
+#otros h2 {
+    font-size: 16px;
+}
+
+#otros ul {
+    font-size: 14px;
+    list-style-type: none;
+    color: #282828;
+    padding: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 .img-fluid {
