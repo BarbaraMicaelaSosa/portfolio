@@ -315,9 +315,11 @@ li {
     color: #E20000;
 }
 
-#proyectos footer a {
+footer .casilla, footer .suite {
     color: #E20000;
-}
+    font-weight: 100;
+    text-decoration: underline;}
+
 
 #proyectos footer .fa-github {
     font-size: 30px;
